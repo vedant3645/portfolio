@@ -35,6 +35,16 @@ a {
 body {
   font-family: "Poppins", sans-serif;
 }
+marquee {
+    padding: 10px;
+    background: #1f2937;
+}
+
+marquee , .mar {
+     color: #fff;
+     font-weight: 700;
+     font-family: poppins 'sans-serif';
+}
 
 nav {
   width: 100%;
@@ -121,15 +131,13 @@ ul li a:hover {
   justify-content: center;
 }
 
-.subtitle , .subtitle2{
+.subtitle {
   letter-spacing: 2px;
   color: var(--text-light);
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
-.subtitle2 {
-    color: rgb(148, 148, 7);
-}
+
 .title {
   font-size: 2.5rem;
   font-weight: 400;
@@ -215,6 +223,15 @@ ul li a:hover {
     
   }
 
+  .mar {
+    color: #faf5ff;
+  }
+  
+
+  .mar {
+    scroll-behavior: infinite;
+  }
+
   ul li a {
     font-size: 1.25rem;
   }
@@ -235,6 +252,8 @@ ul li a:hover {
 
   nav .logo {
     padding-left: 5px;
+    
+    font-weight: 900;
   }
 
   i {
@@ -244,6 +263,10 @@ ul li a:hover {
   .action__btns, .hire__me {
     font-size: 5px;
   }
+
+body {
+    scroll-behavior: smooth;
+}
 
 }
 
@@ -278,8 +301,15 @@ body {
                 <li><a href="#">Portfolio</a></li> -->
                 <li><a href="https://www.instagram.com/vedant_3645">Follow me</a></li>
             </ul>
-        </div>
+        </div> 
+        <marquee>
+            <p class="mar" style="letter-spacing: 1px;">I AM THE OWNER OF THE ANGEL SCHOOL MEME PAGE ON INSTAGRAM</p>
+           
+        </marquee>
     </nav>
+  
+   
+   
     <section class="section">
         <div class="section__container">
             <div class="content">
@@ -288,12 +318,12 @@ body {
                 <h1 class="title">
                     I'm <span>VEDANT<br />a</span> Student
                 </h1>
-                <p class="subtitle2">OWNER OF ANGEL SCHOOL MEMER PAGE</p>
+               
                 <p class="description">
                     Hi there! I’m Vedant, a web developer and business owner. I love creating beautiful, responsive, and user-friendly websites and business ideas. I’ve worked on a variety of projects, from personal blogs to e-commerce platforms. I also own my own business that’s worth about 80 crore rupees and the owner of angel school memer page.
                 </p>
                 <div class="action__btns">
-                    <button class="hire__me" onclick="document.location='https://www.instagram.com/vedant_3645 '"><i class="ˇfa fa-instagram">Follow</i> </button>
+                    <button class="hire__me" onclick="document.location='https://www.instagram.com/vedant_3645 '">Follow </button>
                     <button class="portfolio">About</button>
                 </div>
             </div>
